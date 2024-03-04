@@ -1,11 +1,12 @@
 repo_name: mollypi/dataprocmagic
 report_id: 2c6c61780bd19852bfd566daace5e1a8
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-15T05:29:35+00:00'
-requested_by: amacaskill
+timestamp: '2024-02-29T18:46:28+00:00'
+requested_by: mollypi
 provider: github
 branch: master
-detected_tools_count: 7
+detected_tools_count: 9
 tools:
 - name: Python
   description: A clear and powerful object-oriented programming language, comparable
@@ -16,7 +17,20 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/mollypi/dataprocmagic
   detection_source: Repo Metadata
+- name: pgvector
+  description: Open-source vector similarity search for Postgres
+  website_url: https://github.com/pgvector/pgvector/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source_url: https://github.com/mollypi/dataprocmagic/blob/master/setup.py
+  detection_source: setup.py
+  last_updated_by: alexismacaskilll
+  last_updated_on: 2020-08-21 21:15:57.000000000 Z
 - name: Git
   description: Fast, scalable, distributed revision control system
   website_url: http://git-scm.com/
@@ -25,6 +39,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/mollypi/dataprocmagic
   detection_source: Repo Metadata
 - name: PyPI
   description: A repository of software for the Python programming language
@@ -34,54 +49,71 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/mollypi/dataprocmagic/blob/master/setup.py
+  detection_source: setup.py
+  last_updated_by: alexismacaskilll
+  last_updated_on: 2020-08-21 21:15:57.000000000 Z
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/mollypi/dataprocmagic/blob/master/setup.py
   detection_source: setup.py
   last_updated_by: alexismacaskilll
   last_updated_on: 2020-08-21 21:15:57.000000000 Z
 - name: google-auth
   description: Google Authentication Library
-  package_url: https://pypi.org/google-auth
+  package_url: https://pypi.org/project/google-auth
   license: Apache-2.0
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19955/default_1965f66bb5a4d2eb7b31193d7be6d8a9041d02b9.png
+  detection_source_url: https://github.com/mollypi/dataprocmagic/blob/master/setup.py
   detection_source: setup.py
   last_updated_by: alexismacaskilll
   last_updated_on: 2020-08-21 21:15:57.000000000 Z
 - name: mock
   description: Rolling backport of unittest.mock for all Pythons
-  package_url: https://pypi.org/mock
+  package_url: https://pypi.org/project/mock
   license: BSD-2-Clause
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19876/default_8902c10687fbcd6273bdbe119fff40fa1180763f.png
+  detection_source_url: https://github.com/mollypi/dataprocmagic/blob/master/setup.py
   detection_source: setup.py
   last_updated_by: alexismacaskilll
   last_updated_on: 2020-08-21 21:15:57.000000000 Z
 - name: nose
   description: Nose extends unittest to make testing easier
-  package_url: https://pypi.org/nose
+  package_url: https://pypi.org/project/nose
   license: LGPL-2.1+
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19887/default_680f9274a97353753534797409b2c06b6bd32266.png
+  detection_source_url: https://github.com/mollypi/dataprocmagic/blob/master/setup.py
   detection_source: setup.py
   last_updated_by: alexismacaskilll
   last_updated_on: 2020-08-21 21:15:57.000000000 Z
 - name: urllib3
   description: HTTP library with thread-safe connection pooling
-  package_url: https://pypi.org/urllib3
+  package_url: https://pypi.org/project/urllib3
   license: MIT
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19842/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/mollypi/dataprocmagic/blob/master/setup.py
   detection_source: setup.py
   last_updated_by: alexismacaskilll
   last_updated_on: 2020-09-10 22:08:31.000000000 Z
